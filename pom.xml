@@ -25,7 +25,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>identity-notification-mgt-json</artifactId>
+    <artifactId>identity-notification-json</artifactId>
     <packaging>pom</packaging>
     <name>WSO2 Carbon - JSON notification sending component</name>
     <description>
