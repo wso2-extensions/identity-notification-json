@@ -93,7 +93,8 @@
                         </Import-Package>
                         <Export-Package>
                             !org.wso2.carbon.identity.notification.mgt.json.internal,
-                            org.wso2.carbon.identity.notification.mgt.json.*
+                            org.wso2.carbon.identity.notification.mgt.json.*;
+                            version="${identity.notification.json.version.package.export.version}"
                         </Export-Package>
                     </instructions>
                 </configuration>
