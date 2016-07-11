@@ -88,12 +88,13 @@
                             org.osgi.framework; version="${osgi.framework.imp.pkg.version.range}",
                             org.osgi.service.component; version="${osgi.service.component.imp.pkg.version.range}",
                             org.wso2.carbon.identity.notification.mgt.*;
-                            version="${carbon.identity.package.import.version.range}",
+                            version="${carbon.identity.framework.imp.pkg.version.range}",
                             org.apache.commons.io; version="${commons.io.wso2.osgi.version.range}"
                         </Import-Package>
                         <Export-Package>
                             !org.wso2.carbon.identity.notification.mgt.json.internal,
-                            org.wso2.carbon.identity.notification.mgt.json.*
+                            org.wso2.carbon.identity.notification.mgt.json.*;
+                            version="${identity.carbon.notification.mgt.json.exp.version}",
                         </Export-Package>
                     </instructions>
                 </configuration>
