@@ -24,7 +24,7 @@
         <version>1</version>
     </parent>
 
-    <groupId>org.wso2.carbon.identity</groupId>
+    <groupId>org.wso2.carbon.identity.notification.json</groupId>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>identity-notification-json</artifactId>
     <version>5.1.2-SNAPSHOT</version>
