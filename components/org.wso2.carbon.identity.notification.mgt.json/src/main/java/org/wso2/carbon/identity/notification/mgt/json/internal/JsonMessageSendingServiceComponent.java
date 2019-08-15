@@ -32,7 +32,7 @@ import org.wso2.carbon.identity.notification.mgt.json.JsonMessageModule;
 @SuppressWarnings("unused")
 public class JsonMessageSendingServiceComponent {
 
-    private static Log log = LogFactory.getLog(JsonMessageSendingServiceComponent.class);
+    private static final Log log = LogFactory.getLog(JsonMessageSendingServiceComponent.class);
 
     protected void activate(ComponentContext ctxt) {
         // Using try catch to whole activator. Unless if something goes wrong (configuration failure) module will keep
